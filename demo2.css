@@ -1,20 +1,35 @@
 @CHARSET "ISO-8859-1";
 
-body {
-	background: cyan;
-	color: green
+h1
+{
+	margin-left:10px;
+	width:950px;
+	background-color: lightgrey;
+	color: #E9967A;
 }
 
-h1 {
-	background: orange;
-	font-family: Arial, Impact, Sans serif;
-	color: blue;
-	font-size: 30pt;
-	text-align: center
+.site-wrapper
+{
+	margin-top:10px;
+	margin-left:10px;
+	height:550px;
+	width:950px;
+	border-style:solid;
+	border-color:red;  
+	background-color: #FFFAFA;
 }
 
-h2, h3 {
-	background: gold;
-	font-family: Arial, Impact, Sans Serif;
-	color: red
+.sub-div1
+{
+	top:100px;
+	left:100px;
+	margin-top:10px;
+	margin-left:10px;
+	width:900px;
+	height:250px;
+	border-style:solid;
+	border-color:blue;
+	background-color:#B0E0E6;
+	position: fixed;
 }
+
