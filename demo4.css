@@ -1,55 +1,21 @@
+@CHARSET "ISO-8859-1";
+
 h1
 {
 	margin-left:10px;
 	width:950px;
-	background-color: lightgrey;
-	color: #E9967A;
+	background-color: powderblue;
+	colour:#FF00FF;
+	font-family: calibri;
 }
 
 .site-wrapper
 {
-	margin-top:10px;
 	margin-left:10px;
-	height:600px;
+	height:480px;
 	width:950px;
-	border-style:solid;
-	border-color:red;  
-	background-color: #FFFAFA;
-}
-
-.top
-{
-	margin-top:10px;
-	margin-left:10px;
-	height:30px;
-	width:950px;
-	
-}
-
-.sub-div1
-{
-	margin-top:10px;
-	margin-left:10px;
-	left:100px;
-	width:350px;
-	height:250px;
-	border-style:solid;
-	border-color:blue;
-	background-color:#B0E0E6;
-	position: absolute;  
-	
-}
-
-.sub-div2
-{
-	margin-top:100px;
-	margin-left:10px;
-	left:100px;
-	width:350px;
-	height:250px;
-	border-style:solid;
-	border-color:blue;
-	background-color: #708090;
-	position: absolute;
+	border: solid black;
+	background-image: url("images/flower.PNG");
+	background-repeat: space repeat;
 	
 }

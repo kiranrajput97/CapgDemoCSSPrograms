@@ -1,35 +1,18 @@
 @CHARSET "ISO-8859-1";
 
-h1
-{
-	margin-left:10px;
-	width:950px;
-	background-color: lightgrey;
-	color: #E9967A;
-}
-
 .site-wrapper
 {
-	margin-top:10px;
-	margin-left:10px;
-	height:550px;
-	width:950px;
-	border-style:solid;
-	border-color:red;  
-	background-color: #FFFAFA;
+	margin-top:20px;
+	margin-left:20px;
+	height:500px;
+	width: 800px;
+	background-color: lightgrey;
+	background-image: url("images/flower.PNG");
+	/* background-repeat: no-repeat; 
+	background-repeat: repeat-x;
+	background-repeat: repeat-y*/
+	background-repeat: no-repeat;
+	/* background-position: top right; 
+	background-position: bottom right;
+	background-position: bottom left;*/
 }
-
-.sub-div1
-{
-	top:100px;
-	left:100px;
-	margin-top:10px;
-	margin-left:10px;
-	width:900px;
-	height:250px;
-	border-style:solid;
-	border-color:blue;
-	background-color:#B0E0E6;
-	position: fixed;
-}
-
